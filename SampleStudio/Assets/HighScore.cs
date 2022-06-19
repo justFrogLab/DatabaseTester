@@ -12,9 +12,9 @@ using System; // string.format
 public class HighScore : MonoBehaviour
 {
     private string secretKey = "UnityC";
-    public string adddScoreURL = "http://localhost/HighScoreGame/addscore.php";
-    public string highscoreURL = "http://localhost/HighScoreGame/display.php";
-    public string deleteScoreURL  = "http://localhost/HighScoreGame/deletescore.php";
+    public string adddScoreURL = "http://175.125.32.152/HighScoreGame/addscore.php";
+    public string highscoreURL = "http://175.125.32.152/HighScoreGame/display.php";
+    public string deleteScoreURL  = "http://175.125.32.152/HighScoreGame/deletescore.php";
 
     public Text nameTextInput;
     public Text scoreTextInput;
